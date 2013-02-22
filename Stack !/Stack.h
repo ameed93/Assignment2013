@@ -1,7 +1,7 @@
 class StackOfIntger{
 
 public:
-	static int top;
+	
 	StackOfIntger(int);
 	~StackOfIntger();
 	int IsFull();
@@ -13,6 +13,7 @@ public:
 private:
 	int size;
 	int *element;
+	int top;
 
 
 

@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int StackOfIntger::top=-1;
+
 StackOfIntger::StackOfIntger(int n){
 	top=-1;
 	size=n;
